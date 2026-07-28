@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Selected recent publications in neural engineering, human–machine interaction, and embodied intelligence.
+description: Recent journal publications in neural engineering, human–machine interaction, and embodied intelligence.
 nav: true
 nav_order: 3
 ---
@@ -16,18 +16,13 @@ nav_order: 3
       const fullText = author.textContent.replace(/\s+/g, " ").trim();
       const firstAuthor = fullText.split(/,| and /, 1)[0].trim();
       const selfName = self.textContent.replace(/\s+/g, " ").trim();
-      const etAl = document.createElement("em");
-      etAl.textContent = "et al.";
+      const selfHighlight = document.createElement("u");
+      selfHighlight.textContent = selfName;
 
       if (firstAuthor === selfName) {
-        author.replaceChildren(self.cloneNode(true), document.createTextNode(", "), etAl);
+        author.replaceChildren(selfHighlight, document.createTextNode(", et al."));
       } else {
-        author.replaceChildren(
-          document.createTextNode(`${firstAuthor}, `),
-          etAl,
-          document.createTextNode(", "),
-          self.cloneNode(true),
-        );
+        author.replaceChildren(document.createTextNode(`${firstAuthor}, et al., `), selfHighlight);
       }
     });
   });
@@ -60,13 +55,14 @@ nav_order: 3
   </div>
 </div>
 
-These metrics are a [Google Scholar](https://scholar.google.com/citations?user=UaWbs_EAAAAJ&hl=en)
-snapshot from July 2026. The list below is curated for venue quality, recency,
-and alignment with our current research programs. It focuses on peer-reviewed
-work published from 2023 to 2026; Google Scholar provides the complete,
-continuously updated publication record.
+These metrics reflect a July 2026 snapshot from
+[Google Scholar](https://scholar.google.com/citations?user=UaWbs_EAAAAJ&hl=en).
+The list below presents peer-reviewed journal articles published from 2022 to
+2026, selected for venue quality and relevance to our current research.
+Google Scholar provides the complete and continuously updated publication
+record.
 
-## Representative publications, 2023–2026
+## Selected journal publications, 2022–2026
 
 {% include bib_search.liquid %}
 

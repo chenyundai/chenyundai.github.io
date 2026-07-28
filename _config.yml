@@ -7,12 +7,12 @@ first_name: Chenyun
 middle_name:
 last_name: Dai
 contact_note: >
-  Prospective students and collaborators are welcome to contact me by email.
+  Prospective students and collaborators are welcome to get in touch by email.
 description: >
   Academic homepage of Dr. Chenyun Dai, Associate Professor
-  at Shanghai Jiao Tong University. His group develops bioelectronic and
-  robotic systems for neural function restoration, intelligent human-machine
-  interaction, brain-computer interfaces, and embodied intelligence.
+  at Shanghai Jiao Tong University. His research spans neural engineering,
+  intelligent human-machine interaction, brain-computer interfaces,
+  rehabilitation robotics, and embodied intelligence.
 footer_text: >
   Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: neural engineering, artificial spinal cord, neural prosthesis, surface electromyography, brain-computer interface, intelligent human-machine interaction, embodied intelligence, rehabilitation robotics

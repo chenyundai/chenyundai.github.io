@@ -7,14 +7,15 @@ nav: true
 nav_order: 2
 ---
 
-We develop clinically relevant bioelectronic and robotic systems that sense
-human state, infer intent, and restore or augment motor function. Although the
-applications differ, all three research programs share a systems-level
-pipeline from physiological measurement to real-world action.
+We develop integrated bioelectronic and robotic systems that sense human
+physiological states, decode movement intention, and restore or augment motor
+function. Across three research programs, a common engineering pipeline links
+biosignal acquisition to clinically relevant stimulation, assistance, or
+embodied action.
 
 <div class="card z-depth-0 mb-4">
   <div class="card-body text-center">
-    <span class="font-weight-bold">Neural and motor sensing</span>
+    <span class="font-weight-bold">Neural and motor biosensing</span>
     &nbsp;→&nbsp;
     <span class="font-weight-bold">Intent decoding</span>
     &nbsp;→&nbsp;
@@ -28,20 +29,20 @@ pipeline from physiological measurement to real-world action.
 
 <div class="card hoverable mb-4">
   <div class="card-body">
-    <h4 class="font-weight-bold">Artificial spinal cord and artificial neural systems</h4>
+    <h4 class="font-weight-bold">Artificial spinal cords and closed-loop neural systems</h4>
     <p>
-      We investigate implantable artificial spinal cords and closed-loop
-      artificial neural systems for people with paralysis, together with
-      peripheral technologies for motor assistance and rehabilitation. Our
-      goal is to bridge disrupted neural pathways and translate residual
-      neural or motor information into coordinated stimulation and movement.
+      We develop implantable artificial spinal cords and closed-loop neural
+      systems for people with paralysis, alongside peripheral technologies for
+      motor assistance and rehabilitation. These systems seek to bridge
+      disrupted neural pathways by converting residual neural and motor signals
+      into coordinated stimulation and movement.
     </p>
     <p class="mb-2"><span class="font-weight-bold">System focus:</span></p>
     <ul>
-      <li>implantable neural interfaces and medical electronic circuits;</li>
+      <li>implantable neural interfaces and application-specific medical electronics;</li>
       <li>closed-loop sensing, decoding, and stimulation;</li>
-      <li>peripheral rehabilitation and assistive movement systems;</li>
-      <li>clinically meaningful evaluation for motor-function recovery.</li>
+      <li>peripheral assistive and rehabilitation systems;</li>
+      <li>clinically relevant evaluation of motor recovery.</li>
     </ul>
   </div>
 </div>
@@ -52,18 +53,17 @@ pipeline from physiological measurement to real-world action.
   <div class="card-body">
     <h4 class="font-weight-bold">From biosignals to intuitive control</h4>
     <p>
-      We build intelligent hardware and algorithms that decode user intent
-      from neural and motor biosignals. The work spans electronic circuit
-      design, artificial-intelligence models, and embedded or desktop
-      software, enabling a complete path from signal acquisition to reliable
-      real-time interaction.
+      We create human–machine interfaces that decode movement intention from
+      neural and motor biosignals. Our work integrates electronic hardware,
+      adaptive artificial intelligence, and embedded or desktop software into
+      end-to-end systems for reliable, low-latency control.
     </p>
     <p class="mb-2"><span class="font-weight-bold">Application focus:</span></p>
     <ul>
       <li>neural prostheses and wearable exoskeletons;</li>
-      <li>virtual mice and alternative computer-access interfaces;</li>
-      <li>drone control, motion-based games, and extended interaction;</li>
-      <li>robust, user-adaptive intent decoding in real-world conditions.</li>
+      <li>accessible computing, including virtual mouse interfaces;</li>
+      <li>drone control and movement-based interactive systems;</li>
+      <li>robust, personalized decoding across users, sessions, and environments.</li>
     </ul>
   </div>
 </div>
@@ -74,18 +74,17 @@ pipeline from physiological measurement to real-world action.
   <div class="card-body">
     <h4 class="font-weight-bold">Learning human behavior for embodied robots</h4>
     <p>
-      We aim to enable embodied robots to acquire transferable movement and
-      behavioral capabilities from human demonstrations. Motion capture,
-      inertial measurement units (IMUs), and surface electromyography (sEMG)
-      provide complementary views of body kinematics, dynamics, and
-      neuromuscular intent.
+      We study how embodied robots can acquire transferable motor skills from
+      human demonstrations. Motion capture, inertial measurement units (IMUs),
+      and surface electromyography (sEMG) provide complementary information
+      about body kinematics, dynamics, and neuromuscular intention.
     </p>
     <p class="mb-2"><span class="font-weight-bold">Research focus:</span></p>
     <ul>
-      <li>multimodal acquisition of human movement and neuromuscular data;</li>
-      <li>shared representations across motion capture, IMUs, and sEMG;</li>
+      <li>synchronized acquisition of human movement and neuromuscular data;</li>
+      <li>multimodal representations across motion capture, IMUs, and sEMG;</li>
       <li>imitation learning and intention-aware learning from human demonstrations;</li>
-      <li>transfer of learned behavior to embodied robotic platforms.</li>
+      <li>adaptation and transfer of learned skills to embodied robotic platforms.</li>
     </ul>
   </div>
 </div>
@@ -97,7 +96,7 @@ pipeline from physiological measurement to real-world action.
     <div class="card h-100 z-depth-0">
       <div class="card-body">
         <h5 class="font-weight-bold">Hardware</h5>
-        <p>Medical chips, sensing circuits, wearable systems, and integrated prototypes.</p>
+        <p>Medical electronics, neural and wearable sensors, and integrated prototypes.</p>
       </div>
     </div>
   </div>
@@ -119,8 +118,9 @@ pipeline from physiological measurement to real-world action.
   </div>
 </div>
 
-The group places particular emphasis on integrated systems that work beyond
-the laboratory. Several technologies have already been commercialized, and we
-welcome collaborations that connect biomedical engineering, clinical needs,
-and robotic deployment. Prospective students and collaborators may contact
+Our priority is not isolated algorithmic performance, but integrated systems
+that remain reliable beyond laboratory conditions. Several technologies have
+reached commercial products. We welcome collaborations that connect biomedical
+engineering, clinical priorities, and robotics. Prospective students and
+collaborators may contact
 [chenyundai@sjtu.edu.cn](mailto:chenyundai@sjtu.edu.cn).

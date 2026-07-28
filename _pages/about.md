@@ -10,6 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Shanghai, China</p>
+    <p><a href="mailto:chenyundai@sjtu.edu.cn">chenyundai@sjtu.edu.cn</a></p>
 
 selected_papers: true
 social: true
@@ -46,18 +47,13 @@ latest_posts:
       const fullText = author.textContent.replace(/\s+/g, " ").trim();
       const firstAuthor = fullText.split(/,| and /, 1)[0].trim();
       const selfName = self.textContent.replace(/\s+/g, " ").trim();
-      const etAl = document.createElement("em");
-      etAl.textContent = "et al.";
+      const selfHighlight = document.createElement("u");
+      selfHighlight.textContent = selfName;
 
       if (firstAuthor === selfName) {
-        author.replaceChildren(self.cloneNode(true), document.createTextNode(", "), etAl);
+        author.replaceChildren(selfHighlight, document.createTextNode(", et al."));
       } else {
-        author.replaceChildren(
-          document.createTextNode(`${firstAuthor}, `),
-          etAl,
-          document.createTextNode(", "),
-          self.cloneNode(true),
-        );
+        author.replaceChildren(document.createTextNode(`${firstAuthor}, et al., `), selfHighlight);
       }
     });
   });
@@ -68,21 +64,20 @@ I am an Associate Professor and Ph.D. supervisor in the
 [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), where I joined the
 faculty in 2023.
 
-My group develops bioelectronic and robotic systems that translate neural and
-motor signals into **restorative stimulation, intuitive machine control, and
-embodied action**. Our work integrates medical electronics, neural and motor
-biosensing, artificial intelligence, and robotics across the full engineering
-chain, from sensing hardware and intent-decoding algorithms to embedded
-software and clinically oriented validation.
+My group develops integrated bioelectronic and robotic systems that convert
+neural and motor biosignals into **restorative stimulation, intuitive device
+control, and embodied robotic behavior**. We combine medical electronics,
+multimodal biosensing, artificial intelligence, and robotics. Our work spans
+custom hardware, intention decoding, embedded implementation, and clinically
+oriented validation.
 
-Our current research is organized around three connected directions:
-implantable artificial spinal cords and neural systems for people with
-paralysis; intelligent human–machine interfaces for neural prostheses,
-exoskeletons, and accessible interaction; and brain–computer interfaces and
-embodied intelligence, where robots learn human movement from motion capture,
-inertial sensing, and surface electromyography.
-
-**Email:** [chenyundai@sjtu.edu.cn](mailto:chenyundai@sjtu.edu.cn)
+Our research spans three connected directions. First, we develop implantable
+artificial spinal cords, closed-loop neural systems, and peripheral
+rehabilitation technologies for people with paralysis. Second, we build
+intention-aware interfaces for neural prostheses, exoskeletons, and accessible
+computing. Third, we study brain–computer interfaces and embodied intelligence,
+enabling robots to learn human movement from motion capture, inertial
+measurement units (IMUs), and surface electromyography (sEMG).
 
 <a class="btn btn-outline-primary" href="{{ '/research/' | relative_url }}">Explore research</a>
 <a class="btn btn-outline-primary" href="https://scholar.google.com/citations?user=UaWbs_EAAAAJ&hl=en">Google Scholar</a>
@@ -98,7 +93,7 @@ inertial sensing, and surface electromyography.
       <div class="card-body">
         <div class="font-weight-bold mb-2">01 · RESTORE</div>
         <h5 class="font-weight-bold">Artificial neural systems</h5>
-        <p>Implantable artificial spinal cords, closed-loop neural systems, and peripheral rehabilitation technologies for restoring movement after paralysis.</p>
+        <p>Implantable artificial spinal cords, closed-loop neural systems, and peripheral rehabilitation technologies designed to restore movement after paralysis.</p>
       </div>
     </div>
   </div>
@@ -107,7 +102,7 @@ inertial sensing, and surface electromyography.
       <div class="card-body">
         <div class="font-weight-bold mb-2">02 · INTERACT</div>
         <h5 class="font-weight-bold">Intelligent human–machine interfaces</h5>
-        <p>Biosignal acquisition, intent decoding, and real-time control for neural prostheses, exoskeletons, and accessible interactive devices.</p>
+        <p>Biosignal acquisition, intention decoding, and real-time control for neural prostheses, exoskeletons, and accessible computing.</p>
       </div>
     </div>
   </div>
@@ -116,7 +111,7 @@ inertial sensing, and surface electromyography.
       <div class="card-body">
         <div class="font-weight-bold mb-2">03 · EMBODY</div>
         <h5 class="font-weight-bold">Brain–computer interfaces and embodied intelligence</h5>
-        <p>Learning transferable human motion and behavior from motion capture, inertial measurement units, and surface electromyography for embodied robots.</p>
+        <p>Transferable robot learning from human demonstrations captured with motion capture, IMUs, and sEMG.</p>
       </div>
     </div>
   </div>
@@ -124,19 +119,20 @@ inertial sensing, and surface electromyography.
 
 ## Translation and impact
 
-Our group works across discovery, engineering, and deployment. Multiple
-prosthetic technologies developed through this work have reached commercial
-products, with their real-world use followed by a Boston television station.
-Research funded by Huawei Central Research Institute also supported the
-development of a human–machine interaction module for Huawei Watch.
+Our group works across scientific discovery, engineering, and deployment.
+Multiple prosthetic technologies from this work have reached commercial
+products, and their real-world use has been covered by a Boston television
+station. Huawei Central Research Institute has also supported our development
+of a human–machine interaction module for Huawei Watch.
 
-Over the past three years, I have published more than 50 papers and served as
-principal investigator on two projects funded by the National Natural Science
-Foundation of China and two provincial or ministerial-level projects. My work
-has been recognized by the Shanghai Overseas High-Level Talent Program and the
-Shanghai Pujiang Talent Program.
+Over the past three years, I have published more than 50 papers. I have served
+as principal investigator on two projects funded by the National Natural
+Science Foundation of China and two provincial or ministerial-level projects.
+My work has been recognized by the Shanghai Overseas High-Level Talent Program
+and the Shanghai Pujiang Talent Program.
 
 Before joining Shanghai Jiao Tong University, I worked at the Shanghai
-Municipal Development and Reform Commission, where I advanced policy reforms
-for industry–academia–research collaboration and contributed the chapter on
-technology-led emerging industries to Shanghai's 14th Five-Year Plan.
+Municipal Development and Reform Commission. There, I helped advance policy
+reforms for industry–academia–research collaboration and contributed the
+chapter on technology-led emerging industries to Shanghai's 14th Five-Year
+Plan.
