@@ -7,9 +7,10 @@ nav: true
 nav_order: 2
 ---
 
-Our research develops clinically relevant bioelectronic and robotic systems
-that can sense human state, infer intent, and restore or augment motor
-function. The three programs below share a common systems pipeline.
+We develop clinically relevant bioelectronic and robotic systems that sense
+human state, infer intent, and restore or augment motor function. Although the
+applications differ, all three research programs share a systems-level
+pipeline from physiological measurement to real-world action.
 
 <div class="card z-depth-0 mb-4">
   <div class="card-body text-center">
@@ -29,11 +30,11 @@ function. The three programs below share a common systems pipeline.
   <div class="card-body">
     <h4 class="font-weight-bold">Artificial spinal cord and artificial neural systems</h4>
     <p>
-      We investigate implantable artificial spinal cords and artificial
-      neural systems for people with paralysis, together with peripheral
-      assistive technologies for motor rehabilitation. The goal is to bridge
-      disrupted neural pathways and translate residual neural or motor
-      information into coordinated stimulation and movement.
+      We investigate implantable artificial spinal cords and closed-loop
+      artificial neural systems for people with paralysis, together with
+      peripheral technologies for motor assistance and rehabilitation. Our
+      goal is to bridge disrupted neural pathways and translate residual
+      neural or motor information into coordinated stimulation and movement.
     </p>
     <p class="mb-2"><span class="font-weight-bold">System focus:</span></p>
     <ul>
@@ -51,10 +52,11 @@ function. The three programs below share a common systems pipeline.
   <div class="card-body">
     <h4 class="font-weight-bold">From biosignals to intuitive control</h4>
     <p>
-      We build intelligent hardware and algorithms that recognize user intent
-      from neural and motor biosignals. Our work covers electronic circuit
+      We build intelligent hardware and algorithms that decode user intent
+      from neural and motor biosignals. The work spans electronic circuit
       design, artificial-intelligence models, and embedded or desktop
-      software, enabling the full path from sensing to real-time interaction.
+      software, enabling a complete path from signal acquisition to reliable
+      real-time interaction.
     </p>
     <p class="mb-2"><span class="font-weight-bold">Application focus:</span></p>
     <ul>
@@ -72,16 +74,17 @@ function. The three programs below share a common systems pipeline.
   <div class="card-body">
     <h4 class="font-weight-bold">Learning human behavior for embodied robots</h4>
     <p>
-      We aim to enable embodied robots to acquire human-like movement and
+      We aim to enable embodied robots to acquire transferable movement and
       behavioral capabilities from human demonstrations. Motion capture,
-      inertial sensors, and surface electromyography provide complementary
-      views of body kinematics, dynamics, and neuromuscular intent.
+      inertial measurement units (IMUs), and surface electromyography (sEMG)
+      provide complementary views of body kinematics, dynamics, and
+      neuromuscular intent.
     </p>
     <p class="mb-2"><span class="font-weight-bold">Research focus:</span></p>
     <ul>
       <li>multimodal acquisition of human movement and neuromuscular data;</li>
-      <li>shared representations across motion capture, IMU, and sEMG;</li>
-      <li>imitation and intention learning from human demonstrations;</li>
+      <li>shared representations across motion capture, IMUs, and sEMG;</li>
+      <li>imitation learning and intention-aware learning from human demonstrations;</li>
       <li>transfer of learned behavior to embodied robotic platforms.</li>
     </ul>
   </div>
@@ -116,7 +119,8 @@ function. The three programs below share a common systems pipeline.
   </div>
 </div>
 
-The group places particular emphasis on hardware that works beyond the
-laboratory. Several technologies have already been commercialized, and we
+The group places particular emphasis on integrated systems that work beyond
+the laboratory. Several technologies have already been commercialized, and we
 welcome collaborations that connect biomedical engineering, clinical needs,
-and robotic deployment.
+and robotic deployment. Prospective students and collaborators may contact
+[chenyundai@sjtu.edu.cn](mailto:chenyundai@sjtu.edu.cn).
