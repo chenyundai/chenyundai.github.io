@@ -92,7 +92,7 @@ socials_in_search: true
 posts_in_search: false
 bib_search: true
 
-max_width: 1050p
+max_width: 930px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
