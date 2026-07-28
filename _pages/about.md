@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>Shanghai, China</p>
-    <p><a href="mailto:chenyundai@sjtu.edu.cn">chenyundai@sjtu.edu.cn</a></p>
+    <p>chenyundai@sjtu.edu.cn</p>
 
 selected_papers: true
 social: true
