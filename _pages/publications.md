@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+<script src="{{ '/assets/js/theme-binary.js' | relative_url | bust_file_cache }}"></script>
+
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".publications .author").forEach((author) => {

@@ -7,6 +7,8 @@ nav: true
 nav_order: 2
 ---
 
+<script src="{{ '/assets/js/theme-binary.js' | relative_url | bust_file_cache }}"></script>
+
 We develop integrated bioelectronic and robotic systems that sense human
 physiological states, decode movement intention, and restore or augment motor
 function. Across three research programs, a common engineering pipeline links

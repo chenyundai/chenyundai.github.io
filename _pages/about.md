@@ -24,6 +24,8 @@ latest_posts:
   enabled: false
 ---
 
+<script src="{{ '/assets/js/theme-binary.js' | relative_url | bust_file_cache }}"></script>
+
 <style>
   @media (max-width: 575.98px) {
     .profile {
