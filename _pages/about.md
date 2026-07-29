@@ -47,11 +47,20 @@ latest_posts:
       const fullText = author.textContent.replace(/\s+/g, " ").trim();
       const firstAuthor = fullText.split(/,| and /, 1)[0].trim();
       const selfName = self.textContent.replace(/\s+/g, " ").trim();
+      const hasFollowingAuthors = Array.from(self.parentNode.childNodes)
+        .slice(Array.from(self.parentNode.childNodes).indexOf(self) + 1)
+        .some((node) => node.textContent.trim());
       const selfHighlight = document.createElement("u");
       selfHighlight.textContent = selfName;
 
       if (firstAuthor === selfName) {
         author.replaceChildren(selfHighlight, document.createTextNode(", et al."));
+      } else if (hasFollowingAuthors) {
+        author.replaceChildren(
+          document.createTextNode(`${firstAuthor}, et al., `),
+          selfHighlight,
+          document.createTextNode(", et al."),
+        );
       } else {
         author.replaceChildren(document.createTextNode(`${firstAuthor}, et al., `), selfHighlight);
       }
