@@ -1,0 +1,1 @@
+(()=>{const e=setThemeSetting,t=e=>"light"===e||"dark"===e?e:window.matchMedia?.("(prefers-color-scheme: dark)").matches?"dark":"light";setThemeSetting=g=>e(t(g)),toggleThemeSetting=()=>{setThemeSetting("dark"===determineThemeSetting()?"light":"dark")},setThemeSetting(determineThemeSetting()),document.getElementById("light-toggle-system")?.remove()})();
